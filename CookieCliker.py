@@ -1,5 +1,7 @@
 import pyautogui
 import keyboard  # using module keyboard
+from collections import OrderedDict
+
 
 # Cookie center position: X:  291 Y:  468
 # Cursor white pixel X: 1694 Y:  295 Colour: (255, 255, 255)
@@ -14,18 +16,31 @@ import keyboard  # using module keyboard
 # Alchemy Lab white pixel X: 1696 Y:  866 Colour: (160, 172, 180)??
 # Portal white pixel
 
-buildings = {
-    "Cursor":(1694, 295), # Colour: (255, 255, 255)
-    "Grandma" : (1745, 358), # Colour: (255, 255, 255)
-    "Farm" : (1723, 424), # Colour: (255, 255, 255)
-    "Mine" : (1706, 487), # Colour: (255, 255, 255)
-    "Factory" : (1753, 550), # Colour: (255, 255, 255)
-    "Bank" : (1722, 618), # Colour: (255, 255, 255)
-    "Temple" : (1712, 681), # Colour: (255, 255, 255)
-    "Wizard" : (1747, 743), # Colour: (255, 255, 255)
-    "Shipment" : (1702, 810), # Colour: (255, 255, 255)
-    "Alchemy_Lab" : (1696,866) # Colour: (160, 172, 180)??
-    }
+# buildings = {
+#     "Cursor":(1694, 295), # Colour: (255, 255, 255)
+#     "Grandma" : (1745, 358), # Colour: (255, 255, 255)
+#     "Farm" : (1723, 424), # Colour: (255, 255, 255)
+#     "Mine" : (1706, 487), # Colour: (255, 255, 255)
+#     "Factory" : (1753, 550), # Colour: (255, 255, 255)
+#     "Bank" : (1722, 618), # Colour: (255, 255, 255)
+#     "Temple" : (1712, 681), # Colour: (255, 255, 255)
+#     "Wizard" : (1747, 743), # Colour: (255, 255, 255)
+#     "Shipment" : (1702, 810), # Colour: (255, 255, 255)
+#     "Alchemy_Lab" : (1696,866) # Colour: (160, 172, 180)??
+#     }
+
+buildings = OrderedDict([
+    ("Alchemy_Lab",(1696,866)), # Colour: (160, 172, 180)??
+    ("Shipment",(1702, 810)), # Colour: (255, 255, 255)
+    ("Wizard",(1747, 743)), # Colour: (255, 255, 255)
+    ("Temple",(1712, 681)), # Colour: (255, 255, 255)
+    ("Bank",(1722, 618)), # Colour: (255, 255, 255)
+    ("Factory",(1753, 550)), # Colour: (255, 255, 255)
+    ("Mine",(1706, 487)), # Colour: (255, 255, 255)
+    ("Grandma",(1745, 358)), # Colour: (255, 255, 255)
+    ("Cursor",(1694, 295)), # Colour: (255, 255, 255)
+    ("Farm",(1723, 424)) # Colour: (255, 255, 255)        
+    ])
 
 white = (255,255,255)
 
