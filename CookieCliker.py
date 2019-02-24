@@ -30,16 +30,16 @@ from collections import OrderedDict
 #     }
 
 buildings = OrderedDict([
-    ("Alchemy_Lab",(1696,866)), # Colour: (160, 172, 180)??
-    ("Shipment",(1702, 810)), # Colour: (255, 255, 255)
-    ("Wizard",(1747, 743)), # Colour: (255, 255, 255)
-    ("Temple",(1712, 681)), # Colour: (255, 255, 255)
-    ("Bank",(1722, 618)), # Colour: (255, 255, 255)
-    ("Factory",(1753, 550)), # Colour: (255, 255, 255)
-    ("Mine",(1706, 487)), # Colour: (255, 255, 255)
-    ("Grandma",(1745, 358)), # Colour: (255, 255, 255)
-    ("Cursor",(1694, 295)), # Colour: (255, 255, 255)
-    ("Farm",(1723, 424)) # Colour: (255, 255, 255)        
+    ("Alchemy_Lab",(1696,866)),
+    ("Shipment",(1702, 810)),
+    ("Wizard",(1747, 743)),
+    ("Temple",(1712, 681)),
+    ("Bank",(1722, 618)),
+    ("Factory",(1753, 550)),
+    ("Mine",(1706, 487)),
+    ("Grandma",(1745, 358)),
+    ("Cursor",(1694, 295)),
+    ("Farm",(1723, 424))
     ])
 
 white = (255,255,255)
